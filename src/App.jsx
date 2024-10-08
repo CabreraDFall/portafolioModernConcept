@@ -8,14 +8,14 @@ function App() {
   return (
     <div className="sm:px-8 my-16 sm:mt-64 bg-regal-blue mx-auto max-w-7xl">
       <Hero />
-      <div id="scrollBar" className="flex pt-20 gap-10">
+      <div className="flex flex-col md:flex-row m-8 md:mx-0 md:my-10 gap-10">
         <Projects />
         <Jobs />
       </div>
       <div className="flex pt-5">
         <Skills />
       </div>
-      <div className="flex pt-5 ">
+      <div className="flex flex-row pt-5 ">
         <Blogs />
       </div>
     </div>

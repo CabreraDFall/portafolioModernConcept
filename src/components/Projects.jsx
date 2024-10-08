@@ -3,10 +3,10 @@ import SectionTitle from "../utilities/SectionTitle";
 
 const Projects = () => {
   return (
-    <div className="w-3/4 rounded c-box h-[400px] overflow-hidden ">
+    <div className="md:w-3/4 rounded c-box h-[400px] overflow-hidden ">
       <div className=" ml-5 my-8  flex flex-col gap-5 h-full ">
         <SectionTitle title={"Portafolio"} />
-        <div className="relative flex flex-col overflow-y-auto gap-4  mx-5 mb-[3rem]">
+        <div className="relative flex flex-col overflow-y-auto  gap-10 mb-10 md:mx-5">
           <Project />
           <Project />
           <Project />

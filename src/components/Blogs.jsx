@@ -4,7 +4,7 @@ import SectionTitle from "../utilities/SectionTitle";
 
 const Blogs = () => {
   return (
-    <div className="flex rounded  h-[fit-content] gap-5  ">
+    <div className="flex flex-col md:flex-row rounded  h-[fit-content] gap-5  ">
       <Blog />
       <Blog />
       <Blog />
