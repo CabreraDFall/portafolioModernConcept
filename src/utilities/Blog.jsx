@@ -5,7 +5,7 @@ const Blog = () => {
     <div className="flex flex-col c-box rounded h-full gap-2">
       <div className="h-[185px]">
         <img
-          srcSet="/public/images/project1.png"
+          srcSet="images/project1.png"
           className="flex items-center h-full w-full "
         />
       </div>
