@@ -9,7 +9,7 @@ const jobExperience = [
     company: "Ipanema Comunicación",
     duration: "sept. 2023 - mar. 2024",
     country: "España",
-    logo: "/public/images/jobsLogo/ipanema_logo.jpg",
+    logo: "images/jobsLogo/ipanema_logo.jpg",
   },
   {
     title: "Becario de proyectos",
