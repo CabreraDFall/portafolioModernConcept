@@ -1,13 +1,10 @@
 import Blog from "../utilities/Blog";
-import Obras from "../utilities/Obras";
-import SectionTitle from "../utilities/SectionTitle";
+import POSTS from "../api/blogContent";
 
 const Blogs = () => {
   return (
-    <div className="flex flex-col md:flex-row rounded  h-[fit-content] gap-5  ">
-      <Blog />
-      <Blog />
-      <Blog />
+    <div className="flex md:flex-row rounded h-[fit-content] gap-10 pb-2 pl-2 w-full overflow-hidden overflow-x-auto">
+      <Blog bloginfo={POSTS} />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { Linkedin } from "lucide-react";
 import Job from "../utilities/Job";
+import { Download } from "lucide-react";
 
 import SectionTitle from "../utilities/SectionTitle";
 
@@ -62,7 +63,10 @@ const Jobs = () => {
             href="https://www.linkedin.com/in/abraham-cabrera/"
             className="text-c-white"
           >
-            LinkedIn
+            <div className="flex gap-2 text-xs text-[#AEAEAE] items-center">
+              <Download width={16} />
+              Descargar
+            </div>
           </a>
         </div>
       </div>

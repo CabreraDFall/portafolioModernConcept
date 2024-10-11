@@ -16,8 +16,8 @@ export default {
       },
       keyframes: {
         "loop-scroll": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(calc(-50% - 1rem/2))" },
+          from: { transform: "translateX(100%)" },
+          to: { transform: "translateX(-100%)" },
         },
       },
     },
