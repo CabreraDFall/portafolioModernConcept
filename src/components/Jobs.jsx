@@ -50,7 +50,7 @@ const jobExperience = [
 ];
 const Jobs = () => {
   return (
-    <div className="w-2/4 rounded c-box h-[400px] overflow-hidden relative flex flex-col gap-3 ">
+    <div className="md:w-2/4 rounded c-box h-[400px] overflow-hidden relative flex flex-col gap-3 ">
       <div className=" mx-5 mt-8  flex h-[80%] flex-col gap-5 ">
         <SectionTitle title={"Experiencia"} />
         <div className="flex flex-col gap-5 overflow-y-auto px-5   h-full">
