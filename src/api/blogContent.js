@@ -3,7 +3,7 @@ export const POSTS = [
     id: 1,
     date: "09/10/2024",
     tag: "Logica",
-    image: "../../public/images/project1.png",
+    image: "images/project1.png",
     slug: "primer-articulo",
     title: "Primer Artículo",
     excerpt: "Este es un breve resumen del primer artículo...",
