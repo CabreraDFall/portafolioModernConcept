@@ -408,10 +408,15 @@ export const POSTS = [
 ];
 
 export const SKILLS = [
-  { skill: "Javascrit" },
-  { skill: "React" },
+  { skill: "Javascript" },
+  { skill: "Frontend" },
   { skill: "React Native" },
-  { skill: "HTML5" },
-  { skill: "CSS3" },
+  { skill: "React" },
+  { skill: "TailwindCSS" },
+  { skill: "Vite" },
+  { skill: "Github" },
+  { skill: "SQL" },
+  { skill: "MongoDB" },
+  { skill: "Figma" },
 ];
 export default POSTS;
