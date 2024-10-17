@@ -5,16 +5,19 @@ const Blog = ({ bloginfo }) => {
   return (
     <>
       {bloginfo.map((info, index) => (
-        <div key={index} className="flex flex-col c-box rounded gap-2">
-          <div className="h-[185px] w-[365px]">
+        <div
+          key={index}
+          className="flex flex-col c-box rounded gap-2 w-[365px]"
+        >
+          <div className="h-[185px] ">
             <img
               srcSet={info.image}
-              className="flex items-center h-full w-full "
+              className="flex items-center h-full w-full object-cover"
             />
           </div>
           <div className="px-7 py-5">
-            <SectionTitle title={"codewar"} />
-            <div className="text-c-white flex flex-col p-3 mt-2 gap-3 ">
+            <SectionTitle title={info.tag} />
+            <div className="text-c-white flex flex-col p-3 mt-2 gap-3">
               <h2 className="text-c-white font-semibold ">{info.title}</h2>
               <p className="text-sm text-[#AEAEAE]">{info.excerpt}</p>
               <div className="flex justify-center pt-5">
