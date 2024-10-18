@@ -64,8 +64,14 @@ const Jobs = () => {
             className="text-c-white"
           >
             <div className="flex gap-2 text-xs text-[#AEAEAE] items-center">
-              <Download width={16} />
-              Descargar
+              <a
+                href="/public/files/CV-FrontEnd_Developer-Abraham_Jose_Cabrera_Benitez.pdf"
+                download="CV-FrontEnd_Developer-Abraham_Jose_Cabrera_Benitez.pdf"
+                className="flex gap-2 text-xs text-[#AEAEAE] items-center"
+              >
+                <Download width={16} />
+                Curriculum
+              </a>
             </div>
           </a>
         </div>
