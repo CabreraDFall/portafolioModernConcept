@@ -65,7 +65,7 @@ const Jobs = () => {
           >
             <div className="flex gap-2 text-xs text-[#AEAEAE] items-center">
               <a
-                href="/public/files/CV-FrontEnd_Developer-Abraham_Jose_Cabrera_Benitez.pdf"
+                href="/files/CV-FrontEnd_Developer-Abraham_Jose_Cabrera_Benitez.pdf"
                 download="CV-FrontEnd_Developer-Abraham_Jose_Cabrera_Benitez.pdf"
                 className="flex gap-2 text-xs text-[#AEAEAE] items-center"
               >
