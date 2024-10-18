@@ -1,4 +1,6 @@
-import { Figma, Github, Linkedin, Mail } from "lucide-react";
+import { Figma, Github, Linkedin, Mail, Clipboard } from "lucide-react";
+import { Link } from "react-router-dom";
+import Tooltip from "../utilities/Tooltip";
 
 const Hero = () => {
   return (
@@ -28,10 +30,18 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-2 items-end">
-          <Github size={24} color={"#EBEBEB"} strokeWidth={0.5} />
-          <Figma size={24} color={"#EBEBEB"} strokeWidth={0.5} />
-          <Linkedin size={24} color={"#EBEBEB"} strokeWidth={0.5} />
-          <Mail size={24} color={"#EBEBEB"} strokeWidth={0.5} />
+          <Link to={"https://github.com/CabreraDFall"}>
+            <Github size={24} color={"#EBEBEB"} strokeWidth={0.5} />
+          </Link>
+          <Link to={"https://www.figma.com/@cabreradfall"}>
+            <Figma size={24} color={"#EBEBEB"} strokeWidth={0.5} />
+          </Link>
+          <Link to={"https://www.linkedin.com/in/cabreradfall/"}>
+            <Linkedin size={24} color={"#EBEBEB"} strokeWidth={0.5} />
+          </Link>
+          <Tooltip text="a.jcabrera@hotmail.com" icon={Clipboard}>
+            <Mail size={24} color={"#EBEBEB"} strokeWidth={0.5} />
+          </Tooltip>
         </div>
       </div>
     </div>

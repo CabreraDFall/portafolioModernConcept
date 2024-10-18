@@ -51,4 +51,57 @@ export const SKILLS = [
   { skill: "MongoDB" },
   { skill: "Figma" },
 ];
+
+export const PROYECTS = [
+  {
+    id: 1,
+    title: "Smart Wacth: Landing Page",
+    socials: [
+      {
+        name: "Github",
+        url: "https://github.com/CabreraDFall/ladingSmartWatch",
+      },
+
+      { name: "Globe", url: "https://lading-smart-watch.vercel.app/" },
+    ],
+    content:
+      "Con una estética limpia y minimalista, junto con elementos interactivos atractivos, los usuarios se sumergen de inmediato en el mundo de la tecnología portátil.",
+    tags: ["React", "TailwindCSS"],
+    image: "images/SMART-Project.png",
+  },
+  {
+    id: 2,
+    title: "Coffee Shop: Movil App",
+    socials: [
+      {
+        name: "Github",
+        url: "https://github.com/CabreraDFall/ladingSmartWatch",
+      },
+      {
+        name: "Figma",
+        url: "https://www.figma.com/community/file/1429046906847768072/cofee-app",
+      },
+    ],
+    content:
+      "Es una aplicación de café desarrollada en React Native que permite a los usuarios explorar menús, personalizar pedidos y realizar compras en línea. Con una interfaz intuitiva y un sistema de recompensas, disfrutar de tu café favorito nunca ha sido tan fácil y conveniente.",
+    tags: ["React Native", "TailwindCSS", "API", "Node.JS"],
+    image: "images/url-Project.png",
+  },
+  {
+    id: 3,
+    title: "URL Shorter: Web App",
+    socials: [
+      {
+        name: "Github",
+        url: "https://github.com/CabreraDFall/urlShorter",
+      },
+
+      { name: "Globe", url: "https://url-shorter-blush.vercel.app/" },
+    ],
+    content:
+      "Es una aplicación web  efectiva que permite a los usuarios acortar enlaces largos en segundos. Con una interfaz amigable, los usuarios pueden pegar su URL, obtener un enlace corto y compartirlo fácilmente en redes sociales o mensajes",
+    tags: ["React", "TailwindCSS"],
+    image: "images/url-Project.png",
+  },
+];
 export default POSTS;
