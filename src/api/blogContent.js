@@ -69,24 +69,24 @@ export const PROYECTS = [
     tags: ["React", "TailwindCSS"],
     image: "images/SMART-Project.png",
   },
-  {
-    id: 2,
-    title: "Coffee Shop: Movil App",
-    socials: [
-      {
-        name: "Github",
-        url: "https://github.com/CabreraDFall/ladingSmartWatch",
-      },
-      {
-        name: "Figma",
-        url: "https://www.figma.com/community/file/1429046906847768072/cofee-app",
-      },
-    ],
-    content:
-      "Es una aplicación de café desarrollada en React Native que permite a los usuarios explorar menús, personalizar pedidos y realizar compras en línea. Con una interfaz intuitiva y un sistema de recompensas, disfrutar de tu café favorito nunca ha sido tan fácil y conveniente.",
-    tags: ["React Native", "TailwindCSS", "API", "Node.JS"],
-    image: "images/url-Project.png",
-  },
+  // {
+  //   id: 2,
+  //   title: "Coffee Shop: Movil App",
+  //   socials: [
+  //     {
+  //       name: "Github",
+  //       url: "https://github.com/CabreraDFall/ladingSmartWatch",
+  //     },
+  //     {
+  //       name: "Figma",
+  //       url: "https://www.figma.com/community/file/1429046906847768072/cofee-app",
+  //     },
+  //   ],
+  //   content:
+  //     "Es una aplicación de café desarrollada en React Native que permite a los usuarios explorar menús, personalizar pedidos y realizar compras en línea. Con una interfaz intuitiva y un sistema de recompensas, disfrutar de tu café favorito nunca ha sido tan fácil y conveniente.",
+  //   tags: ["React Native", "TailwindCSS", "API", "Node.JS"],
+  //   image: "images/url-Project.png",
+  // },
   {
     id: 3,
     title: "URL Shorter: Web App",
