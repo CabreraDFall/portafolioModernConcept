@@ -62,7 +62,7 @@ export const PROYECTS = [
         url: "https://github.com/CabreraDFall/ladingSmartWatch",
       },
 
-      { name: "Globe", url: "https://lading-smart-watch.vercel.app/" },
+      { name: "Globe", url: "" },
     ],
     content:
       "Con una estética limpia y minimalista, junto con elementos interactivos atractivos, los usuarios se sumergen de inmediato en el mundo de la tecnología portátil.",
@@ -96,7 +96,7 @@ export const PROYECTS = [
         url: "https://github.com/CabreraDFall/urlShorter",
       },
 
-      { name: "Globe", url: "https://url-shorter-blush.vercel.app/" },
+      { name: "Globe", url: "" },
     ],
     content:
       "Es una aplicación web  efectiva que permite a los usuarios acortar enlaces largos en segundos. Con una interfaz amigable, los usuarios pueden pegar su URL, obtener un enlace corto y compartirlo fácilmente en redes sociales o mensajes",
