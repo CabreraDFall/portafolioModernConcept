@@ -65,28 +65,28 @@ export const PROYECTS = [
       // { name: "Globe", url: "" },
     ],
     content:
-      "Con una estética limpia y minimalista, junto con elementos interactivos atractivos, los usuarios se sumergen de inmediato en el mundo de la tecnología portátil.",
+      "Con estética minimalista y elementos interactivos, los usuarios se sumergen en la tecnología portátil.",
     tags: ["React", "TailwindCSS"],
     image: "images/SMART-Project.png",
   },
-  // {
-  //   id: 2,
-  //   title: "Coffee Shop: Movil App",
-  //   socials: [
-  //     {
-  //       name: "Github",
-  //       url: "https://github.com/CabreraDFall/ladingSmartWatch",
-  //     },
-  //     {
-  //       name: "Figma",
-  //       url: "https://www.figma.com/community/file/1429046906847768072/cofee-app",
-  //     },
-  //   ],
-  //   content:
-  //     "Es una aplicación de café desarrollada en React Native que permite a los usuarios explorar menús, personalizar pedidos y realizar compras en línea. Con una interfaz intuitiva y un sistema de recompensas, disfrutar de tu café favorito nunca ha sido tan fácil y conveniente.",
-  //   tags: ["React Native", "TailwindCSS", "API", "Node.JS"],
-  //   image: "images/url-Project.png",
-  // },
+  {
+    id: 2,
+    title: "Coffee Shop: Movil App",
+    socials: [
+      {
+        name: "Github",
+        url: "https://github.com/CabreraDFall/coffeeShop",
+      },
+      {
+        name: "Figma",
+        url: "https://www.figma.com/community/file/1429046906847768072/cofee-app",
+      },
+    ],
+    content:
+      "Aplicación de café en React Native para explorar menús, personalizar pedidos y realizar compras online.",
+    tags: ["React Native", "TailwindCSS", "API", "Node.JS"],
+    image: "images/coffeeShop.png",
+  },
   {
     id: 3,
     title: "URL Shorter: Web App",
@@ -99,7 +99,7 @@ export const PROYECTS = [
       // { name: "Globe", url: "" },
     ],
     content:
-      "Es una aplicación web  efectiva que permite a los usuarios acortar enlaces largos en segundos. Con una interfaz amigable, los usuarios pueden pegar su URL, obtener un enlace corto y compartirlo fácilmente en redes sociales o mensajes",
+      "Aplicación web que acorta enlaces largos en segundos, con interfaz amigable para compartir fácilmente.",
     tags: ["React", "TailwindCSS"],
     image: "images/url-Project.png",
   },

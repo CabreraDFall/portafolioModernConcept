@@ -39,7 +39,7 @@ const Hero = () => {
           <Link to={"https://www.linkedin.com/in/cabreradfall/"}>
             <Linkedin size={24} color={"#EBEBEB"} strokeWidth={0.5} />
           </Link>
-          <Tooltip text="a.jcabrera@hotmail.com" icon={Clipboard}>
+          <Tooltip text="abraham@cabreradfall.dev" icon={Clipboard}>
             <Mail size={24} color={"#EBEBEB"} strokeWidth={0.5} />
           </Tooltip>
         </div>

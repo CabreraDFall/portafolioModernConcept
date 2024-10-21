@@ -3,7 +3,7 @@ import POSTS from "../api/blogContent";
 
 const Blogs = () => {
   return (
-    <div className="flex md:flex-row rounded h-[fit-content] gap-10 pb-2 pl-2 w-full overflow-hidden overflow-x-auto justify-between">
+    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5  rounded h-[fit-content] pb-2 pl-2 w-full">
       <Blog bloginfo={POSTS} />
     </div>
   );

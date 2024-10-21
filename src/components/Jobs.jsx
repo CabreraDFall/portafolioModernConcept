@@ -53,27 +53,22 @@ const Jobs = () => {
     <div className="md:w-2/4 rounded c-box h-[400px] overflow-hidden relative flex flex-col gap-3 ">
       <div className=" mx-5 mt-8  flex h-[80%] flex-col gap-5 ">
         <SectionTitle title={"Experiencia"} />
-        <div className="flex flex-col gap-5 overflow-y-auto px-5   h-full">
+        <div className="flex flex-col gap-5 overflow-y-auto px-5 h-full">
           <Job jobExperience={jobExperience} />
         </div>
       </div>
       <div className="text-c-text  justify-center mb-2 gap-5 h-10% flex items-center  w-full">
         <div className="fit-content px-5 mt-1 flex rounded gap-3 c-box">
-          <a
-            href="https://www.linkedin.com/in/abraham-cabrera/"
-            className="text-c-white"
-          >
-            <div className="flex gap-2 text-xs text-[#AEAEAE] items-center">
-              <a
-                href="/files/CV-FrontEnd_Developer-Abraham_Jose_Cabrera_Benitez.pdf"
-                download="CV-FrontEnd_Developer-Abraham_Jose_Cabrera_Benitez.pdf"
-                className="flex gap-2 text-xs text-[#AEAEAE] items-center"
-              >
-                <Download width={16} />
-                Curriculum
-              </a>
-            </div>
-          </a>
+          <div className="flex gap-2 text-xs text-[#AEAEAE] items-center">
+            <a
+              href="/files/CV-FrontEnd_Developer-Abraham_Jose_Cabrera_Benitez.pdf"
+              download="CV-FrontEnd_Developer-Abraham_Jose_Cabrera_Benitez.pdf"
+              className="flex gap-2 text-xs text-[#AEAEAE] items-center"
+            >
+              <Download width={16} />
+              Curriculum
+            </a>
+          </div>
         </div>
       </div>
     </div>

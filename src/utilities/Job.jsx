@@ -3,7 +3,7 @@ const Job = ({ jobExperience }) => {
     <>
       {jobExperience.map((job, index) => (
         <div key={index} className="flex w-full items-center">
-          <div className="w-1/5 rounded-sm pr-5">
+          <div className="hidden lg:flex w-1/5 rounded-sm pr-5">
             <img
               srcSet={job.logo}
               className="flex items-center h-full w-full rounded-sm "

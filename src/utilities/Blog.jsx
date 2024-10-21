@@ -5,14 +5,11 @@ const Blog = ({ bloginfo }) => {
   return (
     <>
       {bloginfo.map((info, index) => (
-        <div
-          key={index}
-          className="flex flex-col c-box rounded gap-2 w-[365px]"
-        >
+        <div key={index} className="flex flex-col c-box rounded gap-2">
           <div className="h-[185px] ">
             <img
               srcSet={info.image}
-              className="flex items-center h-full w-full object-cover"
+              className="flex items-center h-full w-full"
             />
           </div>
           <div className="px-7 py-5">
