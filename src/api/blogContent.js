@@ -3,8 +3,8 @@ export const POSTS = [
     id: 1,
     date: "17/10/2024",
     tag: "React",
-    image: "images/project1.png",
-    slug: "Patrones-Modernos-React",
+    image: "images/patrones-modernos-react.png",
+    slug: "Patrones-modernos-react",
     title:
       "Patrones Modernos en React: Cómo Mejorar la Eficiencia y Escalabilidad de tus Componentes",
     excerpt:
@@ -16,7 +16,7 @@ export const POSTS = [
     id: 2,
     date: "09/10/2024",
     tag: "React",
-    image: "images/project1.png",
+    image: "images/react-arquitectura-componentes.png",
     slug: "react-arquitectura-componentes",
     title:
       "React y la Arquitectura basada en Componentes: Construyendo Interfaces Reutilizables y Mantenibles",
@@ -29,7 +29,7 @@ export const POSTS = [
     id: 3,
     date: "09/10/2024",
     tag: "Algoritmos",
-    image: "images/project1.png",
+    image: "images/bigO.png",
     slug: "complejidad-temporal-y-espacial",
     title: "Entendiendo la Complejidad Temporal y Espacial",
     excerpt:
